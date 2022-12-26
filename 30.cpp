@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-long long findMinDiff(vector<long long> a, long long n, long long m=0){
+long long findMinDiff(vector<long long> a, long long n, long long m){
     //code
      if(m==0 || n==0) return 0;
     
